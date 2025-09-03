@@ -1,0 +1,36 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: black solid 2px;
+}
+
+.containerBox {
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Ikke endre tingene over denne linja! */
+
+.greenBox {
+  background-color: green;
+}
+
+.redBox {
+  background-color: red;
+}
+
+.blueBox {
+  background-color: blue;
+}
+
+.purpleBox {
+  background-color: purple;
+}
+
+.pinkBox {
+  background-color: pink;
+}
+
+.orangeBox {
+  background-color: orange;
+}

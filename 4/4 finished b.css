@@ -1,0 +1,48 @@
+.box {
+  min-width: 100px;
+  min-height: 100px;
+  border: black solid 2px;
+}
+
+.greenBox {
+  background-color: green;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.redBox {
+  background-color: red;
+  grid-row: 3 / -2;
+  grid-column: 2 / -2;
+}
+
+.blueBox {
+  background-color: blue;
+  grid-row: 2 / -2;
+  grid-column: 1 / 2;
+}
+
+.purpleBox {
+  background-color: purple;
+  grid-row: 2 / -2;
+  grid-column: -2 / -1;
+}
+
+.pinkBox {
+  background-color: pink;
+  grid-row: 2 / 3;
+  grid-column: 2 / -2;
+}
+
+.orangeBox {
+  background-color: orange;
+  grid-row: -2 / -1;
+  grid-column: 1 / -1;
+}
+
+.container {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: 150px 100px auto 100px;
+}
